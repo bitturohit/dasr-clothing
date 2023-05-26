@@ -1,6 +1,7 @@
 import './CategoryItem.scss';
 
 const CategoryItem = ({ category }) => {
+  console.log('hh');
   return (
     <div className="category-container" key={category.id}>
       <div
